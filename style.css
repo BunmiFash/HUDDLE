@@ -336,6 +336,8 @@ a.circle:hover {
 }
 
 
+
+
 /* MEDIA QUERY */
 
 @media screen and (max-width:375px) {
@@ -362,8 +364,8 @@ a.circle:hover {
         display: flex;
         min-width: 100%;
         margin-top: 5px;
-        padding-left: 5px;
-        padding-left: 5px;
+        padding-right: 50px;
+        padding-left: 50px;
         justify-content: center;
         align-items: center;
     }
@@ -372,15 +374,18 @@ a.circle:hover {
     .top1 p {
         text-align: center;
         margin: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 15px;
 
     }
 
     .bottom1 img {
-        margin-right: 30px;
+       margin: auto;
     }
 
     .btn2 {
-        margin-left: 40%;
+        margin: auto;
     }
 
     .top1 {
@@ -402,7 +407,8 @@ a.circle:hover {
     #top2 {
         display: flex;
         min-width: 100%;
-        padding: 15px;
+        padding: 25px;
+        margin: auto;
     }
 
 
@@ -412,6 +418,7 @@ a.circle:hover {
         font-size: 12px;
         text-align: center;
         margin: auto;
+   margin-bottom: 10px;
 
     }
 
@@ -419,7 +426,8 @@ a.circle:hover {
     .bottom3 p,
     #top3 p {
         font-size: 10px;
-        padding: 5px;
+        padding-left:15px;
+        padding-right: 15px;
         margin: auto;
         text-align: center;
     }
@@ -460,7 +468,7 @@ a.circle:hover {
         margin: auto;
         position: absolute;
         bottom: 300px;
-        right: -118px;
+        right: -179px;
 
     }
 
@@ -494,3 +502,7 @@ a.circle:hover {
         bottom: 8px;
     }
 }
+
+
+
+
