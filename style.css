@@ -467,7 +467,7 @@ a.circle:hover {
         margin: auto;
         position: absolute;
         bottom: 300px;
-        right: -179px;
+        left: -49%;
 
     }
 
@@ -497,7 +497,7 @@ a.circle:hover {
 
     .copyright {
         position: fixed;
-        right: 30px;
+        right:30%;
         bottom: 8px;
     }
 }
