@@ -274,8 +274,7 @@ h3 {
 
 }
 
-div img:hover,
-.boxcontainer:hover {
+div img:hover {
     animation-name: MOVE;
     animation-duration: 5s;
     animation-iteration-count: 2;
