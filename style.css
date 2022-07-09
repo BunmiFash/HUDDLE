@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 100%;
+     max-width: 100%; 
 }
 
 :root {
@@ -13,14 +13,14 @@
 }
 
 body {
-    max-width: 1500px;
     min-height: 100vh;
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
 }
 .all{
     width: 100%;
-    margin: 0 auto;
+    max-width: 1500px;
+    border: 1px solid yellow;
 }
 
 /* HEADER CONTAINER */
@@ -101,7 +101,7 @@ h2 {
 /* MAIN CONTAINER */
 .main {
     width: 80%;
-    margin: 50px auto 100px auto;
+    margin: 50px auto 20px auto;
     
 }
 
@@ -139,7 +139,8 @@ h2 {
 /* BOX */
 .box {
     background-color: white;
-    width: 50%;
+    width: 70%;
+    text-align: center;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -147,12 +148,12 @@ h2 {
     justify-content: center;
     padding: 2em;
     box-shadow: 0px 0px 10px pink;
-    position: absolute;
-    z-index: 4;
-    left: 350px;
-    top:2000px;
-
+    z-index: 3;
+    margin:  0 auto;
+    transform: translateY(70px);
+   position: relative;
 }
+
 
 /* ANIMAATION */
 @keyframes MOVE {
@@ -212,6 +213,7 @@ h2 {
 footer {
     background-color: var(--darkcyan);
     padding: 2em;
+    padding-top: 3em;
     color: white;
     position: relative;
 
@@ -245,6 +247,7 @@ footer svg {
 .column1 img {
     filter: invert(1%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(1000%) contrast(100%);
     margin-bottom: 0.5em;
+    width: 200px;
 }
 
 ul {
@@ -275,8 +278,9 @@ a.circle {
     border: 1px solid white;
     display: inline-flex;
     text-decoration: none;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
 }
 
 a.circle:hover {
@@ -389,10 +393,7 @@ a.circle:hover {
     }
 
     .box {
-        left: 20px;
-        top: 1940px;
-        /* top:415%; */
-        width: 90%;
+        width: 100%;
         padding: 1em;
         display: flex;
         flex-direction: column;
@@ -406,7 +407,6 @@ a.circle:hover {
 
     .column1 img {
         width: 100px;
-        padding-top: 3px;
     }
 
     .column4 ul{
